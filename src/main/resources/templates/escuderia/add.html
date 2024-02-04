@@ -12,7 +12,7 @@
 <div class="container">
     <h1>Form Escuderia</h1>
     <form action="#" th:action="@{/view/add}" th:object="${e}" method="post">
-        <input type="text" th:field="*{name}" placeholder="Insert nombre escudería" class="form-control mb-4 col-4">
+        <input type="text" th:field="*{name}" required placeholder="Insert nombre escudería" class="form-control mb-4 col-4">
         <input type="number" th:field="*{presupuesto}" placeholder="Insert presupuesto" class="form-control mb-4 col-4">
         <div class="mb-4">
             <label>Posición en el Campeonato de Constructores: </label>

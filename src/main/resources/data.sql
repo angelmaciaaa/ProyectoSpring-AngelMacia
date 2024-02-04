@@ -1,0 +1,14 @@
+INSERT INTO escuderia (name, presupuesto, pos_campeonato_constructores) values ('Mclaren', 3333333, 3);
+INSERT INTO escuderia (name, presupuesto, pos_campeonato_constructores) values ('Mercedes', 3333333, 4);
+INSERT INTO escuderia (name, presupuesto, pos_campeonato_constructores) values ('Red Bull', 1000000, 1);
+INSERT INTO escuderia (name, presupuesto, pos_campeonato_constructores) values ('Aston Martin', 1000, 2);
+INSERT INTO team_principal (id, escuderia_name, name, salary) values (1, 'Aston Martin', 'Lawrence Stroll', 20000);
+INSERT INTO team_principal (id, escuderia_name, name, salary) values (2, 'Red Bull', 'Christian Horner', 212000);
+INSERT INTO team_principal (id, escuderia_name, name, salary) values (3, 'Mercedes', 'Toto Wolff', 2120555);
+INSERT INTO piloto (dorsal, name, pos_campeonato_pilotos, salario, escuderia_name) values (4, 'Lando Norris', 8, 50000, 'Mclaren');
+INSERT INTO piloto (dorsal, name, pos_campeonato_pilotos, salario, escuderia_name) values (44, 'Lewis Hamilton', 3, 550000, 'Mercedes');
+INSERT INTO piloto (dorsal, name, pos_campeonato_pilotos, salario, escuderia_name) values (77, 'George Russell', 6, 450000, 'Mercedes');
+INSERT INTO piloto (dorsal, name, pos_campeonato_pilotos, salario, escuderia_name) values (14, 'Fernando Alonso', 1, 900000, 'Aston Martin');
+INSERT INTO piloto (dorsal, name, pos_campeonato_pilotos, salario, escuderia_name) values (20, 'Lance Stroll', 19, 200, 'Aston Martin');
+INSERT INTO piloto (dorsal, name, pos_campeonato_pilotos, salario, escuderia_name) values (1, 'Max Verstappen', 2, 2074540, 'Red Bull');
+INSERT INTO piloto (dorsal, name, pos_campeonato_pilotos, salario, escuderia_name) values (11, 'Checo Perez', 4, 2540, 'Red Bull');
